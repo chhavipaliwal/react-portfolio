@@ -1,0 +1,55 @@
+{
+  "workbench.colorTheme": "oh-lucy",
+  "tabnine.experimentalAutoImports": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "C_Cpp.default.intelliSenseMode": "windows-gcc-x64",
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.enableSmartCommit": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.autoSave": "afterDelay",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.mouseWheelZoom": true,
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.clearPreviousOutput": true,
+  "grammarly.files.exclude": ["**/*.cpp"],
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "explorer.confirmDragAndDrop": false,
+  "git.openRepositoryInParentFolders": "never",
+  "explorer.confirmDelete": false,
+  "git.confirmSync": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "quokka.automaticRestart": true,
+  "smartsemicolon.autoLineChange": true,
+  "smartersemicolon.autoLineChange": true,
+  "[sass]": {
+    "editor.defaultFormatter": "syler.sass-indented"
+  }
+}

@@ -1,0 +1,88 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600;700;800;900&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap'); */
+
+@import url("Fonts.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Poppins:wght@400;500;600&display=swap");
+
+@font-face {
+  font-family: "Product Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"), local("OpenSans"),
+    url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2)
+      format("woff2");
+}
+
+:root {
+  --primary: #5d74bb;
+  --secondary: #c7c8da;
+  --primary-hover: #34296e83;
+  --light: rgb(237, 239, 247);
+  /* --light: #d5d5d5; */
+  --lighter: #e0edef;
+  --dark: #1d2429;
+  --darker: #242c30;
+  --font-primary: "Outfit", sans-serif;
+  --font-secondary: "JetBrains Mono", sans-serif;
+  --faded: #8c8e90;
+  --border: #e5ebe9;
+  /* Constant colors */
+  --light-const: #e9eef1;
+  --dark-const: #1d2429;
+  --bg-ambient: rgba(255, 255, 255, 0.318);
+  --blur: blur(300px);
+  --primary-light: #fff;
+  --danger: #ec6a5e;
+  --warning: #f9c851;
+  --success: #68e179;
+  /* --font-dark: #2f2f2f;
+    --font-light: #fff;
+    --font-faded: #2c3f50;
+    --font-hover: #000;
+    --font-hover-light: #fff;
+    --font-family: Quicksand;
+    --bg-light: #d6d6d6;
+    --bg-extra-light: #fff;
+    --bg-active: rgba(0, 0, 0, 0.05);
+    --bg-hover: #baabd5;
+    --bg-dark: #0f0f0f;
+    --bg-secondary: #dfecf1;
+    --heading-color: #292922; */
+  /* --border-color: rgb(204, 204, 204); */
+  --ambient-box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+[data-theme="dark"] {
+  --primary: #508199;
+  --primary-hover: rgba(23, 61, 81, 0.455);
+  --secondary: #3e3f50;
+  --light: #1d2429;
+  --lighter: #242c30;
+  --dark: #e9f7f7;
+  /* --dark: #d5d5d5; */
+  --darker: #f9f9f9;
+  --font: "Outfit", sans-serif;
+  --faded: #999;
+  --border: #8b96a5;
+  --bg-ambient: #0f0f0f69;
+  --blur: blur(50px);
+  --primary-light: #508199;
+  /* --font-dark: #e1e1ff;
+    --font-light: #2f2f2f;
+    --font-faded: #c1b9b9;
+    --font-hover: #fff;
+    --font-hover-light: #000;
+    --bg-light: #1d2429;
+    --bg-extra-light: #242c30;
+    --bg-active: #272727;
+    --bg-hover: #34296e83;
+    --bg-dark: #fff;
+    --bg-secondary: #121212;
+    --heading-color: #fff; */
+  --path: #fff;
+  --bg-faded: #18181a;
+  --ambient-box-shadow: rgba(255, 255, 255, 0.07) 0px 1px 1px 0px inset,
+    rgba(62, 31, 170, 0.04) 0px 50px 100px -20px,
+    rgba(157, 48, 172, 0.1) 0px 30px 60px -30px;
+}

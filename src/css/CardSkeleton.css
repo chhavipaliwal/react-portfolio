@@ -1,0 +1,14 @@
+.card-skeleton {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 0.5rem;
+    position: relative;
+}
+
+.card-title {
+    width: 75%;
+}
+
+.card-description {
+    width: 50%;
+}
