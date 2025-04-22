@@ -63,7 +63,7 @@ function Header() {
               <Link to="/#" className="header-logo">
                 <i className="fa-duotone fa-code"></i>
                 <div className="brand-text">
-                  <span className="text-1">Kitti</span>
+                  <span className="text-1">Chhavi</span>
                 </div>
               </Link>
               <ul className="header-menu hide-header">
@@ -117,11 +117,19 @@ function Header() {
             </div>
             <div className="header-right">
               <div className="btns hide-header">
-                <a href="#" className="btn">
-                  Login
+                <a
+                  target="_blank"
+                  href="https://github.com/chhavipaliwal"
+                  className="btn"
+                >
+                  Github
                 </a>
-                <a href="#" className="btn btn-primary">
-                  Create an account
+                <a
+                  target="_blank"
+                  href="https://linkedin.com/in/chhavipaliwal"
+                  className="btn btn-primary"
+                >
+                  LinkedIn
                 </a>
               </div>
               {!isSidebar && (
@@ -142,7 +150,7 @@ function Header() {
           <Link to="/#" className="sidebar-brand">
             <i className="fa-duotone fa-code"></i>
             <div className="brand-text">
-              <span className="text-1">Kitti</span>
+              <span className="text-1">Chhavi</span>
             </div>
           </Link>
           <button className="sidebar-close" onClick={closeSidebar}>

@@ -70,7 +70,7 @@ function Contact({ contact }: Props) {
             <div className="contact-left-up">
               <h3>Estimate your project? Let me know here</h3>
               <form
-                action="https://formsubmit.co/0594c436b1545a8c5681447979831a68"
+                action="https://formsubmit.co/b0582b7aaa4d8c902da5c56ca7c87c9a"
                 method="POST"
                 id="form"
               >
@@ -98,7 +98,7 @@ function Contact({ contact }: Props) {
                 <div className="input">
                   <div className="label">Tell me about your project</div>
                   <textarea
-                    placeholder="Explain it breifly"
+                    placeholder="Explain it briefly"
                     name="message"
                     id="ProjectText"
                     required

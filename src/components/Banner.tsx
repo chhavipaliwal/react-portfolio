@@ -103,7 +103,7 @@ function Banner({ abouts }: Props) {
                 </motion.p>
                 <motion.div
                   variants={{
-                    hidden: { opacity: 0, x: -375 },
+                    hidden: { opacity: 0, x: -200 },
                     visible: { opacity: 1, x: 0 },
                   }}
                   initial="hidden"
@@ -188,7 +188,7 @@ function Banner({ abouts }: Props) {
               <div className="avatar">
                 <motion.img
                   variants={{
-                    hidden: { opacity: 0, x: 375 },
+                    hidden: { opacity: 0, x: 200 },
                     visible: { opacity: 1, x: 0 },
                   }}
                   initial="hidden"

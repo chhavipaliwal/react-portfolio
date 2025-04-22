@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useInView } from "react-hook-inview";
+import { Icon } from "@iconify/react";
 
 type Props = {
   skills: {
@@ -110,7 +111,13 @@ function Skills({ skills, educations, certifications }: Props) {
                 </span>
 
                 {skill.isFontAwesome ? (
-                  <i className={skill.image} style={{ color: skill.color }}></i>
+                  <div style={{ color: skill.color }}>
+                    <Icon
+                      style={{ color: skill.color }}
+                      icon={skill.image}
+                      width={24}
+                    />
+                  </div>
                 ) : (
                   <img src={`/skills/${skill.image}`} className="skill-image" />
                 )}
