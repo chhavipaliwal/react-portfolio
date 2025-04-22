@@ -16,7 +16,7 @@ const SCE = () => {
         <TabList>
           <Tab>Skills</Tab>
           <Tab>Educations</Tab>
-          <Tab>Certifications</Tab>
+          {/* <Tab>Certifications</Tab> */}
         </TabList>
 
         <TabPanel>
@@ -31,12 +31,12 @@ const SCE = () => {
           </Helmet>
           <Education educations={Services.education} />
         </TabPanel>
-        <TabPanel>
+        {/* <TabPanel>
           <Helmet>
             <title>Certifications - Chhavi Paliwal</title>
           </Helmet>
           <Certificates certifications={Services.certificates} />
-        </TabPanel>
+        </TabPanel> */}
       </Tabs>
     </>
   );

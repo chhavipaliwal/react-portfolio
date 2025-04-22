@@ -2,6 +2,7 @@ import "../css/Screens.scss";
 import { useState } from "react";
 import Popup from "reactjs-popup";
 import "../css/Popup.css";
+import { Icon } from "@iconify/react";
 
 type Props = {
   skills: {
@@ -47,10 +48,11 @@ function Skills({ skills }: Props) {
                     </span>
 
                     {skill.isFontAwesome ? (
-                      <i
-                        className={skill.image}
+                      <Icon
+                        icon={skill.image}
                         style={{ color: skill.color }}
-                      ></i>
+                        width={24}
+                      />
                     ) : (
                       <img
                         src={`/skills/${skill.image}`}
