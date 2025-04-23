@@ -26,10 +26,10 @@ function Footer({ links }: Props) {
         </h2>
         <div className="btns">
           <a href="/register" className="btn">
-            Create an account
+            My Resume
           </a>
           <a href="/login" className="btn btn-primary">
-            Login
+            My Video CV
           </a>
         </div>
       </motion.div>
