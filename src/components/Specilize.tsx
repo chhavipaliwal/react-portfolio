@@ -34,7 +34,7 @@ function Specilize({ services }: SpecializeProps) {
   ];
   return (
     <div ref={ref} className="section specilize" id="specilize">
-      <h2 className="topic-heading specilize-heading">Specilizing in</h2>
+      <h2 className="topic-heading specilize-heading">Specializing in</h2>
 
       <div className="specilize-content">
         {displayServices.map((service, index) => (
